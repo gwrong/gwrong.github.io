@@ -1,0 +1,30 @@
+/* navbar */
+.navbar-default {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.navbar-header.page-scroll a, .collapse.navbar-collapse li a {
+    color: #fff;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+}
+
+.navbar-header.page-scroll a {
+    font-size: 28px;
+}
+
+.navbar-header.page-scroll a:hover, .collapse.navbar-collapse li a:hover {
+    color: #99CCFF;
+}
+
+body {
+    color:;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
