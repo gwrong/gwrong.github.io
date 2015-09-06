@@ -4,13 +4,17 @@
     border-color: #2c3e50;
 }
 
-.navbar-header.page-scroll a, .collapse.navbar-collapse li a {
+
+
+.collapse.navbar-collapse li a, .collapse.navbar-collapse li a:link, .collapse.navbar-collapse li a:visited {
     color: #fff;
     font-family: "Cabin", sans-serif;
     font-size: 20px;
 }
 
-.navbar-header.page-scroll a {
+.navbar-header.page-scroll a, .navbar-header.page-scroll a:link, .navbar-header.page-scroll a:visited {
+    color: #fff;
+    font-family: "Cabin", sans-serif;
     font-size: 28px;
 }
 
@@ -19,7 +23,7 @@
 }
 
 body {
-    color:;
+    padding-top: 80px;
 }
 
 .navbar-brand,
@@ -31,4 +35,12 @@ body {
 
 a:link, a:visited, a:hover {
     color: #006600;
+}
+
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
 }
