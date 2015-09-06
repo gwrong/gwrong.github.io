@@ -28,3 +28,7 @@ body {
     height: 75px;
     padding-top: 0;
 }
+
+a:link, a:visited, a:hover {
+    color: #006600;
+}
