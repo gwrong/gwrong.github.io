@@ -33,14 +33,47 @@ body {
     padding-top: 0;
 }
 
-a:link, a:visited, a:hover {
-    color: #006600;
-}
 
-*[id]:before { 
+
+#about:before { 
   display: block; 
   content: " "; 
   margin-top: -80px; 
   height: 80px; 
   visibility: hidden; 
+}
+
+#about {
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+}
+
+#about a:link, #about a:visited, #about a:hover {
+    color: #006600;
+    color: #33CC33;
+
+}
+
+#portfolio {
+    text-align: center;
+    background: #fff;
+    color: #000000;
+    font-size: 20px;
+    padding: 0px;
+}
+
+#portfolio a:link, #portfolio a:visited, #portfolio a:hover {
+    color: #006600;
+
+}
+
+.footer-below {
+    padding: 20px 0;
+    text-align: center;
+    background: #000000;
+    font-size: 20px;
+    color: #fff;
 }
